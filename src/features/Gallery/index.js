@@ -2,7 +2,7 @@ import React from "react";
 import { SimpleSlider } from "../../ui/Slider";
 import styles from "./index.module.scss";
 import imgOne from "./img/fotoOne.jpg";
-import imgTwo from "./img/fotoTwo.jpg";
+import imgmk2 from "./img/fotomk2.jpg";
 import imgTree from "./img/fotoTree.jpg";
 import imgDota from "./img/fotoDota.jpg";
 import imgDota2 from "./img/fotoDota2.jpg";
@@ -12,7 +12,7 @@ import imgMk from "./img/fotomk.jpg";
 export function Gallery(props) {
   const slides = [
     { img: imgOne, text: "Бэтмен и Робин" },
-    { img: imgTwo, text: "Горо и Рептилия" },
+    { img: imgmk2, text: "Горо и Рептилия" },
     { img: imgTree, text: "Чудо-женщина, Флеш и Супермен" },
     { img: imgDota, text: "Лина и Кристалл Мэйден" },
     { img: imgDota2, text: "Пак и Урса" },
