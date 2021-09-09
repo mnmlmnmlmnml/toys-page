@@ -13,7 +13,12 @@ export function Content() {
     <div className={styles.content}>
       <section id="about" className={styles.section__first}>
         <About
-          title="Добро пожаловать на мой сайт!"
+          title={
+            <>
+              Добро пожаловать <br />
+              на мой сайт!
+            </>
+          }
           text="Меня зовут Даша. Вяжу игрушки по мотивам видеоигр и комиксов. Здесь вы можете увидеть мои готовые изделия. Порадуй себя или своего близкого человека
           необычным подарком."
           img={img}
