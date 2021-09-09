@@ -6,3 +6,7 @@
 .slick-next:before {
   color: black;
 }
+.slick-dots {
+  position: static;
+  margin-bottom: 10px;
+}
