@@ -20,11 +20,10 @@ export function Gallery(props) {
     { img: imgMk, text: "Райден, Саб-зиро и Скорпион" },
   ];
 
-  const { title, text } = props;
   return (
     <div className={styles.gallery}>
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.text}>{text}</p>
+      <h3 className={styles.title}>Фото</h3>
+      <p className={styles.text}>Примеры готовых изделий:</p>
       <SimpleSlider slides={slides} />
     </div>
   );

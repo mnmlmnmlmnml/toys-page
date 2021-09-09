@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./index.module.scss";
 
-export function Contacts(props) {
-  const { title } = props;
+export function Contacts() {
   return (
     <div className={styles.contacts}>
-      <h3 className={styles.title}>{title}</h3>
+      <h3 className={styles.title}>По всем вопросам обращаться:</h3>
       <div className={styles.social}>
         <a
           className={styles.instagram}
