@@ -31,9 +31,11 @@
   border-radius: 50px;
 }
 .link {
-  text-decoration: none;
+  transition: all 0.3s ease;
   color: black;
-  font-weight: bold;
+  &:hover {
+    color: #333;
+  }
 }
 
 .desc {

@@ -13,7 +13,7 @@
 .social {
   display: flex;
   flex-direction: row;
-
+  align-items: center;
   margin-bottom: 50px;
 }
 
@@ -25,6 +25,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
+  transition: all 0.3s ease;
+}
+.instagram:hover {
+  transform: scale(1.1);
 }
 
 .telegram {
@@ -35,8 +39,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
+  transition: all 0.3s ease;
 }
 
+.telegram:hover {
+  transform: scale(1.1);
+}
 .vk {
   display: block;
   width: 50px;
@@ -45,4 +53,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.vk:hover {
+  transform: scale(1.1);
 }

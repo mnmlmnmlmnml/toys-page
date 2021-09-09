@@ -7,8 +7,10 @@
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
-}
-.button:hover {
-  background-color: #434b4f;
-  border-radius: 30%;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #333;
+  }
 }
