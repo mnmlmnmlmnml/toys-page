@@ -1,21 +1,21 @@
-import styles from "./App.module.scss";
-import React from "react";
-import { Main } from "./pages/Main";
+import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import styles from './App.module.scss'
+import { Main } from './pages/Main'
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Header } from "./features/Header";
+import { Header } from './features/Header'
 
 function App() {
-  return (
-    <div className={styles.App}>
-      <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route path="/" exact component={Main} />
-        </Switch>
-      </BrowserRouter>
-    </div>
-  );
+    return (
+        <div className={styles.App}>
+            <BrowserRouter>
+                <Header />
+                <Switch>
+                    <Route path='/' exact component={Main} />
+                </Switch>
+            </BrowserRouter>
+        </div>
+    )
 }
 
-export default App;
+export default App

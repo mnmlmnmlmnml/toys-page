@@ -1,2 +1,2 @@
-export * from "./Slider";
-export * from "./NavButton";
+export * from './SimpleSlider'
+export * from './NavButton'
