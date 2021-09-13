@@ -28,3 +28,17 @@
     padding: 20px 0px;
     border-bottom: 1px solid white;
 }
+
+@media screen and(max-width:768px) {
+    .header {
+        margin-bottom: 160px;
+    }
+    .sticky {
+        flex-direction: column;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}

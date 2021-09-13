@@ -1,14 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './index.module.scss'
+import { Title, Text } from '../../ui'
 
 export function About(props) {
     const { text, img, orientation = '', title } = props
     return (
         <div className={styles.about} data-orientation={orientation}>
             <div className={styles.text}>
-                <h3 className={styles.title}>{title}</h3>
-                <p className={styles.desc}>{text}</p>
+                <Title> {title} </Title>
+                <Text> {text}</Text>
             </div>
             <img className={styles.img} src={img} alt='' />
         </div>

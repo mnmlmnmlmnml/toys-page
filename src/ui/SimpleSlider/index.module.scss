@@ -14,3 +14,14 @@
     text-align: center;
     margin: 10px;
 }
+
+@media screen and(max-width:768px) {
+    .slider {
+        width: 100%;
+    }
+    .img {
+        margin: 0 auto;
+        width: 95%;
+        height: auto;
+    }
+}

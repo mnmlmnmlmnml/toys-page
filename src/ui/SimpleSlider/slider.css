@@ -10,3 +10,11 @@
     position: static;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 768px) {
+    .slick-prev,
+    .slick-next,
+    .slick-prev:before,
+    .slick-next:before {
+        display: none !important;
+    }
+}

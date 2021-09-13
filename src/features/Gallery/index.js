@@ -1,5 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { SimpleSlider } from '../../ui/SimpleSlider'
+
+import { Title, Text } from '../../ui'
 import styles from './index.module.scss'
 import imgOne from './img/fotoOne.jpg'
 import imgmk2 from './img/fotomk2.jpg'
@@ -9,7 +12,9 @@ import imgDota2 from './img/fotoDota2.jpg'
 import imgMarvel from './img/fotomarvel.jpg'
 import imgMk from './img/fotomk.jpg'
 
-export function Gallery() {
+export function Gallery(props) {
+    const { title, text } = props
+
     const slides = [
         { img: imgOne, text: 'Бэтмен и Робин' },
         { img: imgmk2, text: 'Горо и Рептилия' },
@@ -22,9 +27,13 @@ export function Gallery() {
 
     return (
         <div className={styles.gallery}>
-            <h3 className={styles.title}>Фото</h3>
-            <p className={styles.text}>Примеры готовых изделий:</p>
+            <Title> {title} </Title>
+            <Text>{text}</Text>
             <SimpleSlider slides={slides} />
         </div>
     )
+}
+Gallery.propTypes = {
+    title: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
 }

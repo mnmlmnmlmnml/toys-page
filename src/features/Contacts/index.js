@@ -1,10 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './index.module.scss'
+import { Title } from '../../ui'
 
-export function Contacts() {
+export function Contacts(props) {
+    const { title } = props
     return (
         <div className={styles.contacts}>
-            <h3 className={styles.title}>По всем вопросам обращаться:</h3>
+            <Title> {title} </Title>
             <div className={styles.social}>
                 <a
                     className={styles.instagram}
@@ -12,7 +15,7 @@ export function Contacts() {
                 >
                     asd
                 </a>
-                <a className={styles.telegram} asd href='https://t.me/mnmlmnml'>
+                <a className={styles.telegram} href='https://t.me/mnmlmnml'>
                     asda
                 </a>
 
@@ -22,4 +25,8 @@ export function Contacts() {
             </div>
         </div>
     )
+}
+
+Contacts.propTypes = {
+    title: PropTypes.string.isRequired,
 }
