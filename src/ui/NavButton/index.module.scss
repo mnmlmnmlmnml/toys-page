@@ -1,4 +1,4 @@
-.button {
+.link {
     margin-right: 10px;
     padding: 5px 5px;
     border: none;
@@ -8,9 +8,10 @@
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
-    border-radius: 4px;
 
-    &:hover {
+    text-decoration: none;
+
+    &:link {
         background-color: #333;
     }
 }

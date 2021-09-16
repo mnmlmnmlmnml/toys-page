@@ -3,27 +3,15 @@ import PropTypes from 'prop-types'
 import styles from './index.module.scss'
 
 export function NavButton(props) {
-    const { onClick, label, disabled, element } = props
+    const { label, href } = props
     return (
-        <button
-            type='button'
-            className={styles.button}
-            onClick={onClick}
-            data-element={element}
-            disabled={disabled}
-        >
+        <a href={href} className={styles.link}>
             {label}
-        </button>
+        </a>
     )
 }
 
 NavButton.propTypes = {
-    onClick: PropTypes.func.isRequired,
+    href: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
-    disabled: PropTypes.bool,
-    element: PropTypes.string.isRequired,
-}
-
-NavButton.defaultProps = {
-    disabled: false,
 }

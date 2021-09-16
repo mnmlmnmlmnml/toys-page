@@ -12,7 +12,7 @@ import imgThird from './img/fotothird.jpg'
 export function Content() {
     return (
         <div className={styles.content}>
-            <section id='about' className={styles.section}>
+            <section className={styles.section} id='about'>
                 <About
                     title={
                         <>
