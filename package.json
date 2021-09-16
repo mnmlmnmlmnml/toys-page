@@ -15,7 +15,7 @@
         "slick-carousel": "^1.8.1"
     },
     "scripts": {
-        "start":"craco start",
+        "start": "craco start",
         "lint": "eslint . --fix",
         "build": "craco build",
         "eject": "react-scripts eject",
@@ -24,7 +24,6 @@
         "postbuild": "react-snap",
         "predeploy": "yarn run build",
         "deploy": "gh-pages -d build"
-       
     },
     "browserslist": {
         "production": [
