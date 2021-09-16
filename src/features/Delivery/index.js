@@ -14,6 +14,6 @@ export function Delivery(props) {
 }
 
 Delivery.propTypes = {
-    title: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
+    title: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
+    text: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
 }

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import styles from './index.module.scss'
-import './slider.css'
+import './slider.scss'
 
 export function SimpleSlider(props) {
     const settings = {

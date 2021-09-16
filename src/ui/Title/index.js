@@ -6,5 +6,6 @@ export function Title({ children }) {
     return <h3 className={styles.title}>{children}</h3>
 }
 Title.propTypes = {
-    children: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
+        .isRequired,
 }

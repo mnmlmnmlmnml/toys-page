@@ -20,6 +20,10 @@ export function NavButton(props) {
 NavButton.propTypes = {
     onClick: PropTypes.func.isRequired,
     label: PropTypes.string.isRequired,
-    disabled: PropTypes.string.isRequired,
-    element: PropTypes.element.isRequired,
+    disabled: PropTypes.bool,
+    element: PropTypes.string.isRequired,
+}
+
+NavButton.defaultProps = {
+    disabled: false,
 }

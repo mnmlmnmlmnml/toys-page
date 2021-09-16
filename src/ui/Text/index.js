@@ -6,5 +6,6 @@ export function Text({ children }) {
     return <p className={styles.text}>{children}</p>
 }
 Text.propTypes = {
-    children: PropTypes.string.isRequired,
+    children: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
+        .isRequired,
 }

@@ -17,10 +17,10 @@ export function About(props) {
 }
 
 About.propTypes = {
-    text: PropTypes.element,
+    text: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
     img: PropTypes.string,
     orientation: PropTypes.string,
-    title: PropTypes.string,
+    title: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 }
 
 About.defaultProps = {

@@ -3,7 +3,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 50px;
-
     &[data-orientation='reverse'] {
         flex-direction: row-reverse;
     }
@@ -17,7 +16,7 @@
     padding: 15px 15px;
 }
 
-@media screen and(max-width:768px) {
+@include mobile {
     .about {
         display: flex;
         flex-direction: column;
