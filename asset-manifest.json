@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/toys-page/static/css/main.2bb932eb.chunk.css",
-    "main.js": "/toys-page/static/js/main.3730e429.chunk.js",
-    "main.js.map": "/toys-page/static/js/main.3730e429.chunk.js.map",
+    "main.js": "/toys-page/static/js/main.6117469c.chunk.js",
+    "main.js.map": "/toys-page/static/js/main.6117469c.chunk.js.map",
     "runtime-main.js": "/toys-page/static/js/runtime-main.9e6242d1.js",
     "runtime-main.js.map": "/toys-page/static/js/runtime-main.9e6242d1.js.map",
     "static/css/2.a7507089.chunk.css": "/toys-page/static/css/2.a7507089.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.a7507089.chunk.css",
     "static/js/2.f8f16ff4.chunk.js",
     "static/css/main.2bb932eb.chunk.css",
-    "static/js/main.3730e429.chunk.js"
+    "static/js/main.6117469c.chunk.js"
   ]
 }
