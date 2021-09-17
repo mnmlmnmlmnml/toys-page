@@ -13,7 +13,7 @@ export function Contacts(props) {
                     className={styles.instagram}
                     href='https://www.instagram.com/mnmltoys/'
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noreferrer noopener'
                 >
                     asd
                 </a>
@@ -21,7 +21,7 @@ export function Contacts(props) {
                     className={styles.telegram}
                     href='https://t.me/mnmlmnml'
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noreferrer noopener'
                 >
                     asda
                 </a>
@@ -30,7 +30,7 @@ export function Contacts(props) {
                     className={styles.vk}
                     href='https://vk.com/mnmlmnmlmnmlmnml'
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noreferrer noopener'
                 >
                     asd
                 </a>

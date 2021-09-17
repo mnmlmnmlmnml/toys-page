@@ -7,7 +7,7 @@ export function Header() {
         <div className={styles.header}>
             <div className={styles.sticky}>
                 <h1 className={styles.title}>
-                    <a className={styles.link} href='/'>
+                    <a className={styles.link} href={process.env.PUBLIC_URL}>
                         mnmltoys
                     </a>
                 </h1>
