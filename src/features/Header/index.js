@@ -6,7 +6,11 @@ export function Header() {
     return (
         <div className={styles.header}>
             <div className={styles.sticky}>
-                <h1 className={styles.title}>mnmltoys</h1>
+                <h1 className={styles.title}>
+                    <a className={styles.link} href='/'>
+                        mnmltoys
+                    </a>
+                </h1>
                 <div className={styles.list}>
                     <NavButton href='#about' label='Главная' />
                     <NavButton href='#gallery' label='Галерея' />

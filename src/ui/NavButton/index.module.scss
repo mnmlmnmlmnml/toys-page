@@ -10,8 +10,7 @@
     transition: all 0.3s ease;
 
     text-decoration: none;
-
-    &:link {
-        background-color: #333;
-    }
+}
+.link:hover {
+    background-color: #333;
 }

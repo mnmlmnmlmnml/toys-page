@@ -12,14 +12,26 @@ export function Contacts(props) {
                 <a
                     className={styles.instagram}
                     href='https://www.instagram.com/mnmltoys/'
+                    target='_blank'
+                    rel='noreferrer'
                 >
                     asd
                 </a>
-                <a className={styles.telegram} href='https://t.me/mnmlmnml'>
+                <a
+                    className={styles.telegram}
+                    href='https://t.me/mnmlmnml'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     asda
                 </a>
 
-                <a className={styles.vk} href='https://vk.com/mnmlmnmlmnmlmnml'>
+                <a
+                    className={styles.vk}
+                    href='https://vk.com/mnmlmnmlmnmlmnml'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     asd
                 </a>
             </div>

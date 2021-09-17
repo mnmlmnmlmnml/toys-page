@@ -6,12 +6,13 @@
     margin-bottom: 100px;
 }
 
-.title {
+.link {
     font-size: 50px;
     padding: 15px 15px;
     line-height: 30px;
     letter-spacing: 2px;
     color: white;
+    text-decoration: none;
 }
 .sticky {
     display: flex;
@@ -33,8 +34,14 @@
     .header {
         margin-bottom: 160px;
     }
+    .title {
+        font-size: 35px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
     .sticky {
         flex-direction: column;
+        padding: 10px;
     }
     .list {
         display: flex;
